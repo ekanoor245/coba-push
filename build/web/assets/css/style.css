@@ -1,0 +1,149 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+html, body{
+    height: 100%;
+}
+.wrap > .container >.container-fluid{
+    padding: 5px 5px 0px;
+}
+.wrap{
+    min-height: 67%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 20px;
+}
+.in-line {
+    min-height: 170px;
+    vertical-align: central;
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.in-line:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.in-line .col {
+    float: left;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 0.75rem;
+    min-height: 1px;
+}
+
+.in-line .material-icons {
+    font-size: inherit;
+}
+
+@media only screen and (max-width: 600px) {
+    .container-fluid {
+        max-width: 600px;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .container-fluid {
+        max-width: 993px;
+        width: 100%;
+        padding-right: 25px;
+        padding-left: 25px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+
+    .container-fluid {
+        max-width: 1280px;
+        width: 100%;
+        padding-right: 45px;
+        padding-left: 45px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+.container-fluid .row {
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+}
+
+.border {
+    border: 1px solid #e9ecef !important;
+}
+
+.border-0 {
+    border: 0 !important;
+}
+
+.border-top-0 {
+    border-top: 0 !important;
+}
+
+.border-right-0 {
+    border-right: 0 !important;
+}
+
+.border-bottom-0 {
+    border-bottom: 0 !important;
+}
+
+.border-left-0 {
+    border-left: 0 !important;
+}
+
+.border-light {
+    border-color: #f1f1f1 !important;
+}
+
+.border-blue {
+    border-color: #03a9f4 !important;
+}
+
+.rounded {
+    border-radius: 0.15rem !important;
+}
+
+.rounded-top {
+    border-top-left-radius: 0.25rem !important;
+    border-top-right-radius: 0.25rem !important;
+}
+
+.rounded-right {
+    border-top-right-radius: 0.25rem !important;
+    border-bottom-right-radius: 0.25rem !important;
+}
+
+.rounded-bottom {
+    border-bottom-right-radius: 0.25rem !important;
+    border-bottom-left-radius: 0.25rem !important;
+}
+
+.rounded-left {
+    border-top-left-radius: 0.25rem !important;
+    border-bottom-left-radius: 0.25rem !important;
+}
+
+.rounded-circle {
+    border-radius: 50%;
+}
+
+.rounded-0 {
+    border-radius: 0;
+}
